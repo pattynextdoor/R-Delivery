@@ -28,6 +28,9 @@ app.get('/login', function(req, res) {
 app.get('/FAQ', function(req, res) {
   res.render('FAQ');
 });
+<<<<<<< HEAD
+>>>>>>> 43010885a141f3e05229737e4020e1d82ccf3d27
+=======
 >>>>>>> 43010885a141f3e05229737e4020e1d82ccf3d27
 
 app.listen(3000, function() {
