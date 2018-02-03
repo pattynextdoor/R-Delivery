@@ -1,5 +1,6 @@
-html {
+body {
   width: 100%;
+  background-color: #EFFFE9;
 }
 
 .nav {
@@ -32,4 +33,19 @@ div.tag {
 img.full-screen {
   margin-left: -8px;
   filter: brightness(75%);
+}
+
+.col>img {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.col>h3 {
+  text-align: center;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+
+.col>p {
+  padding: 0 100px;
 }
