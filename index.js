@@ -12,6 +12,14 @@ app.get('/create-account', function(req, res) {
   res.render('create-account');
 })
 
+app.get('/login', function(req, res) {
+  res.render('login');
+})
+
+app.get('/FAQ', function(req, res) {
+  res.render('FAQ');
+})
+
 app.listen(3000, function() {
   console.log('Server started');
 });
