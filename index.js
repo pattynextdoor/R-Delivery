@@ -15,22 +15,12 @@ i});
 app.get('/create-account', function(req, res) {
   res.render('create-account');
 });
-<<<<<<< HEAD
 
-app.get('/login', function(req, res) {
-    res.render('login');
-});
 
 app.get('/FAQ', function(req, res) {
     res.render('FAQ');
 });
-=======
 
-<<<<<<< HEAD
-app.get('/log-in', function(req, res) {
-    res.render('log-in');
-})
-=======
 app.get('/login', function(req, res) {
   res.render('login');
 });
@@ -38,8 +28,6 @@ app.get('/login', function(req, res) {
 app.get('/FAQ', function(req, res) {
   res.render('FAQ');
 });
->>>>>>> 43010885a141f3e05229737e4020e1d82ccf3d27
->>>>>>> master
 
 app.listen(3000, function() {
   console.log('Server started');
