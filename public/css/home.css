@@ -10,6 +10,26 @@ html {
   letter-spacing: 2px;
 }
 
+div.landing {
+  position: relative;
+  width: 100%;
+}
+
+div.tag {
+  float: left;
+  position: absolute;
+  left: 125px;
+  top: 80px;
+  z-index: 1000;
+  padding: 3px;
+  font-size: 60px;
+  text-shadow: 2px 2px #000000;
+  color: white;
+  line-height: 1;
+  font-weight: 700;
+}
+
 img.full-screen {
   margin-left: -8px;
+  filter: brightness(75%);
 }
