@@ -1,7 +1,7 @@
 {
   "name": "r-delivery",
   "version": "1.0.0",
-  "description": "",
+  "description": "I just put a description here so I don't get a warning lol",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -12,7 +12,7 @@ app.get('/', function(req, res) {
   res.render('home');
 });
 
-iapp.get('/create-account', function(req, res) {
+app.get('/create-account', function(req, res) {
   res.render('create-account');
 });
 
@@ -24,6 +24,6 @@ app.get('/login', function(req, res) {
   res.render('login');
 });
 
-apip.listen(3000, function() {
+app.listen(3000, function() {
   console.log('Server started');
 });
