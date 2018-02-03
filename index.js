@@ -3,32 +3,27 @@ var mongoose = require('mongoose');
 
 var app = express();
 
-mongoose.connect('mongodb://localhost/r-delivery')
+//mongoose.connect('mongodb://localhost/r-delivery')
 
 app.use(express.static(__dirname + '/public'));
 app.set('view engine','ejs');
 
 app.get('/', function(req, res) {
   res.render('home');
-i});
+});
 
-app.get('/create-account', function(req, res) {
+iapp.get('/create-account', function(req, res) {
   res.render('create-account');
 });
 
-
 app.get('/FAQ', function(req, res) {
-    res.render('FAQ');
+    res.render('faq');
 });
 
 app.get('/login', function(req, res) {
   res.render('login');
 });
 
-app.get('/FAQ', function(req, res) {
-  res.render('FAQ');
-});
-
-app.listen(3000, function() {
+apip.listen(3000, function() {
   console.log('Server started');
 });
