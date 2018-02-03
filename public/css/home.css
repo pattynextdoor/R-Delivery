@@ -1,13 +1,18 @@
 body {
   width: 100%;
   background-color: #EFFFE9;
+  font-family: 'Quicksand';
+  margin: 0;
+  color: #011627;
 }
 
-.nav {
-  padding-left: 50px;
+.nav>a {
+  text-decoration: none;
+  color: #011627;
 }
 
 .nav-logo {
+  padding-left: 50px;
   letter-spacing: 2px;
 }
 
@@ -17,10 +22,10 @@ div.landing {
 }
 
 div.tag {
-  float: left;
+  text-align: center;
   position: absolute;
-  left: 125px;
-  top: 80px;
+  left: 25%;
+  top: 60px;
   z-index: 1000;
   padding: 3px;
   font-size: 60px;
@@ -31,7 +36,6 @@ div.tag {
 }
 
 img.full-screen {
-  margin-left: -8px;
   filter: brightness(75%);
 }
 
@@ -47,5 +51,10 @@ img.full-screen {
 }
 
 .col>p {
-  padding: 0 100px;
+  padding: 0 80px;
+}
+
+section.single-section {
+  background-color: 
+  text-align: center;
 }
