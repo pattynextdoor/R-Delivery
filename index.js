@@ -71,8 +71,8 @@ UserSchema.statics.authenticate = function(email, password, fname, lname) {
 */
 ///////////////////////////////
 
-var User = mongoose.model('User', UserSchema);
-module.exports = User;
+//var User = mongoose.model('User', UserSchema);
+//module.exports = User;
 //mongoose.connect('mongodb://localhost/r-delivery')
 
 app.use(express.static(__dirname + '/public'));
@@ -93,6 +93,9 @@ app.get('/FAQ', function(req, res) {
 app.get('/login', function(req, res) {
   res.render('login');
 });
+app.get('/map', function(req, res) {
+ res.render('googleMaps');
+ });
 
 app.listen(3000, function() {
   console.log('Server started');
