@@ -2,6 +2,7 @@ var express = require('express');
 var mongoose = require('mongoose');
 
 var app = express();
+<<<<<<< HEAD
 /*
 var UserSchema = new mongoose.Schema({
     email: {
@@ -75,6 +76,8 @@ UserSchema.statics.authenticate = function(email, password, fname, lname) {
 //module.exports = User;
 //mongoose.connect('mongodb://localhost/r-delivery')
 
+=======
+>>>>>>> 743e823949c5c36267d08c6e13e9a13ac8ab57ae
 app.use(express.static(__dirname + '/public'));
 app.set('view engine','ejs');
 
@@ -93,9 +96,7 @@ app.get('/FAQ', function(req, res) {
 app.get('/login', function(req, res) {
   res.render('login');
 });
-app.get('/map', function(req, res) {
- res.render('googleMaps');
- });
+
 
 app.listen(3000, function() {
   console.log('Server started');
