@@ -93,6 +93,10 @@ app.get('/FAQ', function(req, res) {
     res.render('faq');
 });
 
+app.get('/map', function(req, res) {
+  res.render('googleMaps');
+});
+
 app.get('/login', function(req, res) {
   res.render('login');
 });
