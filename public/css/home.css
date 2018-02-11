@@ -39,6 +39,11 @@ img.full-screen {
   filter: brightness(75%);
 }
 
+.col {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .col>img {
   margin: 0 auto;
   margin-top: 20px;
@@ -55,7 +60,7 @@ img.full-screen {
 }
 
 section.single-section {
-  background-color: 
+  margin: 0 auto;
   text-align: center;
 }  
 
